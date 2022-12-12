@@ -5,12 +5,14 @@ body {
 
 ul {
     list-style-type: none;
+    padding-top:7px;
 } 
 
 a {
     text-decoration: none;
     color: black;    
 }
+
 a:hover {
     color: #ff5c0f;
 }
@@ -64,9 +66,11 @@ button:hover {
     li {
         display:inline;
     }
+
     .container {
         display:flex;
-        flex-direction: row;
+        flex-direction: row;        
     }
 
+    
 }
